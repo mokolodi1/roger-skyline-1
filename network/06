@@ -1,0 +1,3 @@
+http://www.cyberciti.biz/faq/linux-unix-find-out-dns-server-ip-address-names/
+
+cat /etc/resolv.conf
