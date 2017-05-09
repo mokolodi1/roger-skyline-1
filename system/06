@@ -1,0 +1,2 @@
+# need root for restarting ssh (using port 22)
+sudo systemctl restart ssh
