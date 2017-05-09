@@ -1,2 +1,4 @@
-# The following should go in the hosts file:
+# The following should go in the hosts file (/etc/hosts):
 62.210.207.183 intra.42.fr
+
+# echo "62.210.207.183 intra.42.fr" >> /etc/hosts

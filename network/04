@@ -1,5 +1,4 @@
-# NOTE: this will show both the IPv4 and IPv6 default gateways
+# NOTE: this will show both the IPv4 and IPv6 default gateways if on a non-42 computer
 netstat -nr | grep default | awk '{print $2}'
 
-# 192.168.1.1
-# fe80::%utun0
+# 10.11.254.254

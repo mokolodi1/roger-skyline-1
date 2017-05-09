@@ -1,4 +1,8 @@
+First interpretation (difference between the two A record IPs):
 The IPs are very similar. There are multiple in case one of them doesn't work for whatever reason.
 
 Sources:
 http://www.nber.org/sys-admin/dns-failover.html
+
+Second interpretation of the question (difference between Google's DNS and the local DNS):
+The IPs are the same

@@ -1,1 +1,5 @@
-Again, two IPs...
+First interpretation (difference between the two A record IPs):
+If you ask without specifying 8.8.8.8 you'll find the local result as well (10.52.1.11). If you follow the subject exactly and ask 8.8.8.8 you'll find two IPs, ostensibly for the same reason.
+
+Second interpretation of the question (difference between Google's DNS and the local DNS):
+Because the local DNS knows that the server is hosted here at 42, it finds the local IP as well, which is why the answers are different.
