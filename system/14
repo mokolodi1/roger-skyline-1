@@ -1,0 +1,2 @@
+# this would only make sense if you were writing into a file, but there you go
+sudo tail -f /var/log/syslog &
