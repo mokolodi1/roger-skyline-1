@@ -1,0 +1,19 @@
+#!/bin/bash
+
+current_cron=$(crontab -l)
+previous_cron_path=$HOME/crontab_backup.txt
+
+if [ -e $previous_cron_path ]; then
+    previous_cron=$(cat "$previous_cron_path")
+    
+    if [ "$previous_cron" == "$current_cron" ]; then
+	exit
+    fi
+
+    echo "Emailing sysadmin because the crontab has changed."
+    echo "The crontab file has changed!" | mail -s "Crontab modified" $USER
+else
+    echo "nope"
+fi
+
+crontab -l > $previous_cron_path
