@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lAhS $1
