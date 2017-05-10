@@ -1,0 +1,2 @@
+sudo cp ./02 /usr/local/bin
+(crontab -l; echo "0 4 * * 0 /usr/local/bin/02") | crontab -
